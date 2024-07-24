@@ -1,0 +1,47 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="FluentValidation" Version="11.9.2" />
+    <PackageReference Include="FluentValidation.AspNetCore" Version="11.3.0" />
+    <PackageReference Include="Mapster" Version="7.4.0" />
+    <PackageReference Include="Mapster.DependencyInjection" Version="1.0.1" />
+    <PackageReference Include="MediatR" Version="12.3.0" />
+    <PackageReference Include="MediatR.Extensions.Microsoft.DependencyInjection" Version="11.1.0" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="8.0.0" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="Common\" />
+    <None Remove="Common\Interfaces\" />
+    <None Remove="Common\Interfaces\Persistance\" />
+    <None Remove="Common\Mapping\" />
+    <None Remove="BankAccount\" />
+    <None Remove="BankAccount\Common\" />
+    <None Remove="BankAccount\Update\" />
+    <None Remove="BankAccount\List\" />
+    <None Remove="BankAccount\Events\" />
+    <None Remove="Common\Behaviours\" />
+    <None Remove="BankAccount\Details\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Common\" />
+    <Folder Include="Common\Interfaces\" />
+    <Folder Include="Common\Interfaces\Persistance\" />
+    <Folder Include="Common\Mapping\" />
+    <Folder Include="BankAccount\" />
+    <Folder Include="BankAccount\Common\" />
+    <Folder Include="BankAccount\Update\" />
+    <Folder Include="BankAccount\List\" />
+    <Folder Include="BankAccount\Events\" />
+    <Folder Include="Common\Behaviours\" />
+    <Folder Include="BankAccount\Details\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DemoApp.Domain\DemoApp.Domain.csproj" />
+  </ItemGroup>
+</Project>

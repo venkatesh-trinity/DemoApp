@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "/5t7iW58sKJ3wmUuh3gxyflvXco5Ee+NygDFAoRdLJ3MpKMfOI0JsBdjxTRX6KKclXMly6TAsqjEX1MM2qSsqA==",
+  "success": true,
+  "projectFilePath": "/Users/venkateshallu/Projects/DemoApp/DemoApp.Domain/DemoApp.Domain.csproj",
+  "expectedPackageFiles": [
+    "/Users/venkateshallu/.nuget/packages/erroror/2.0.1/erroror.2.0.1.nupkg.sha512",
+    "/Users/venkateshallu/.nuget/packages/mediatr/12.3.0/mediatr.12.3.0.nupkg.sha512",
+    "/Users/venkateshallu/.nuget/packages/mediatr.contracts/2.0.1/mediatr.contracts.2.0.1.nupkg.sha512",
+    "/Users/venkateshallu/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/8.0.0/microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
